@@ -1,3 +1,4 @@
+/* Existing CSS */
 body {
     margin: 0;
     padding: 0;
@@ -14,4 +15,11 @@ body {
 .menu-image {
     max-width: 100%;
     height: auto;
+}
+
+/* Add this media query for mobile devices */
+@media (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
 }
