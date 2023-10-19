@@ -9,12 +9,13 @@
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     min-height: 100vh; /* Ensure the container covers the full viewport height */
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 10px;
 }
 
 .center-content {
     max-width: 100%; /* Responsive, adjust the width to your needs */
+    max-height: 100vh; /* Prevent content from exceeding viewport height */
+    overflow: hidden; /* Hide content that exceeds the viewport */
 }
 
 img {
