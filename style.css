@@ -4,11 +4,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 100vh;
     background-color: #f0f0f0;
 }
 
 .menu-image {
     max-width: 100%;
-    height: auto;
+    height: fit-content;
 }
