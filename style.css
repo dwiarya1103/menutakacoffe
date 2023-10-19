@@ -6,7 +6,6 @@ body {
 }
 
 .container {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,10 +18,12 @@ body {
 }
 
 /* Add this media query for mobile devices */
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
     body {
         overflow: hidden;
-        padding: auto;
-        padding-top: -20vh;
+    }
+    
+    .container {
+        align-items: center; /* Membuat gambar tetap di tengah vertikal */
     }
 }
