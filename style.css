@@ -1,27 +1,22 @@
 * {
-    padding: 0;
     margin: 0;
-    background-color: #0a0a0a;
+    padding: 0;
 }
 
 body {
-    overflow-x: hidden; /* Prevent horizontal scrolling on mobile */
+    background-color: #0a0a0a;
 }
 
-.center-container {
+.image-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    min-height: 100vh; /* Ensure the container covers the full viewport height */
-    padding: 10px;
-}
-
-.center-content {
-    max-width: 100%; /* Responsive, adjust the width to your needs */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Mencegah scroll di dalam kontainer */
+    height: 100vh;
 }
 
 img {
-    max-width: 100%; /* Responsive image */
-    height: auto; /* Maintain the aspect ratio */
+    max-width: 100%; /* Pastikan gambar responsif */
+    height: auto; /* Pertahankan rasio aspek gambar */
     object-fit: contain;
 }
