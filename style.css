@@ -4,6 +4,10 @@
     background-color: #0a0a0a;
 }
 
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling on mobile */
+}
+
 .center-container {
     display: flex;
     justify-content: center; /* Center horizontally */
@@ -14,8 +18,6 @@
 
 .center-content {
     max-width: 100%; /* Responsive, adjust the width to your needs */
-    max-height: 100vh; /* Prevent content from exceeding viewport height */
-    overflow: hidden; /* Hide content that exceeds the viewport */
 }
 
 img {
