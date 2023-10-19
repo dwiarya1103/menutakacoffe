@@ -6,10 +6,10 @@ body {
 }
 
 .container {
+    padding-top: -20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
     min-height: 100vh;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 /* Add this media query for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 1024) {
     body {
         overflow: hidden;
         padding: auto;
