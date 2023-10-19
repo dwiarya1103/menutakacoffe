@@ -1,22 +1,14 @@
-* {
+body {
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: #0a0a0a;
-}
-
-.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Mencegah scroll di dalam kontainer */
-    height: 100vh;
+    min-height: 100vh;
+    background-color: #f0f0f0;
 }
 
-img {
-    max-width: 100%; /* Pastikan gambar responsif */
-    height: auto; /* Pertahankan rasio aspek gambar */
-    object-fit: contain;
+.menu-image {
+    max-width: 100%;
+    height: auto;
 }
