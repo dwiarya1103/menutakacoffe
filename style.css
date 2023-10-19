@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    padding-top: -20vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,5 +23,6 @@ body {
     body {
         overflow: hidden;
         padding: auto;
+        padding-top: -20vh;
     }
 }
