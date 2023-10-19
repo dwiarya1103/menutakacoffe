@@ -1,30 +1,22 @@
-/* Existing CSS */
-body {
-    margin: 0;
+* {
     padding: 0;
-    background-color: #f0f0f0;
+    margin: 0;
+    background-color: #0a0a0a;
 }
 
-.container {
+
+.images {
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
-.menu-image {
-    max-width: 100%;
-    height: auto;
-    padding: 50px 0;
+img {
+    width: 100%;
+    object-fit: contain;
 }
 
-/* Add this media query for mobile devices */
-@media (max-width: 1024px) {
-    body {
-        overflow: hidden;
-    }
-    
-    .container {
-        align-items: center; /* Membuat gambar tetap di tengah vertikal */
-    }
+.center-container{
+    padding-top: 20px;
 }
