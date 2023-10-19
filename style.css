@@ -4,15 +4,20 @@
     background-color: #0a0a0a;
 }
 
-
-.images {
-    padding: 20px;
+.center-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure the container covers the full viewport height */
+    padding: 20px;
+}
+
+.center-content {
+    max-width: 100%; /* Responsive, adjust the width to your needs */
 }
 
 img {
-    width: 100%;
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain the aspect ratio */
     object-fit: contain;
 }
