@@ -1,14 +1,17 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
 }
 
 .menu-image {
     max-width: 100%;
-    height: fit-content;
+    height: auto;
 }
